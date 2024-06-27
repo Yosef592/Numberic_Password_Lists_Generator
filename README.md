@@ -18,6 +18,8 @@
 #### > python3 Numberic_password_lists_generator.py
 
 #### Windows:
-#### > Download from https://github.com/Yosef592/Numberic_Password_Lists_Generator.git
+#### > Download from [https://github.com/Yosef592/Numberic_Password_Lists_Generator.git](https://github.com/Yosef592/Numberic_Password_Lists_Generator/archive/refs/heads/main.zip)
+#### > Numberic_Password_Lists_Generator-main.zip
+#### > Extract files.
 #### > cd Numberic_Password_Lists_Generator
 #### > python3 Numberic_password_lists_generator.py
