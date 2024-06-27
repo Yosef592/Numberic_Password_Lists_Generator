@@ -13,11 +13,11 @@ Sample Password List: [Show](https://github.com/Yosef592/Numberic_Password_Lists
 ### Usage:
 
 Linux:
-> git clone https://github.com/Yosef592/Numberic_Password_Lists_Generator.git
-> cd Numberic_Password_Lists_Generator
+> git clone https://github.com/Yosef592/Numberic_Password_Lists_Generator.git, 
+> cd Numberic_Password_Lists_Generator, 
 > python3 Numberic_password_lists_generator.py
 
 Windows:
-> Download from https://github.com/Yosef592/Numberic_Password_Lists_Generator.git
-> cd Numberic_Password_Lists_Generator
+> Download from https://github.com/Yosef592/Numberic_Password_Lists_Generator.git, 
+> cd Numberic_Password_Lists_Generator, 
 > python3 Numberic_password_lists_generator.py
