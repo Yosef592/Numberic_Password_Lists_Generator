@@ -41,160 +41,73 @@ def body2():
         print("Something is wrong")
 
 def p2():
-    a = -1
-    while a < 9:
-        a += 1
-        b = -1
-        while b < 9:
-            b += 1
-            print(a, b)
-
+    with open('Password_list_2.txt','x') as file:
+       file.close()
+    with open('Password_list_2.txt', 'w') as file:
+       for i in range(100):
+          password = f"{i:02}"
+          file.write(password + '\n')
+    print("SAVE TO 'Password_list_2.txt'")
 def p3():
-    a = -1
-    while a < 9:
-        a += 1
-        b = -1
-        while b < 9:
-            b += 1
-            c = -1
-            while c < 9:
-                c += 1 
-                print(a, b, c)
+    with open('Password_list_3.txt','x') as file:
+       file.close()
+    with open('Password_list_3.txt', 'w') as file:
+       for i in range(1000):
+          password = f"{i:03}"
+          file.write(password + '\n')
+    print("SAVE TO 'Password_list_3.txt'")
 
 def p4():
-    a = -1
-    while a < 9:
-        a += 1
-        b = -1
-        while b < 9:
-            b += 1
-            c = -1
-            while c < 9:
-                c += 1
-                d = -1
-                while d < 9:
-                    d += 1 
-                    print(a, b, c, d)
+    with open('Password_list_4.txt','x') as file:
+       file.close()
+    with open('Password_list_4.txt', 'w') as file:
+       for i in range(10000):
+          password = f"{i:04}"
+          file.write(password + '\n')
+    print("SAVE TO 'Password_list_4.txt'")
 
 def p5():
-    a = -1
-    while a < 9:
-        a += 1
-        b = -1
-        while b < 9:
-            b += 1
-            c = -1
-            while c < 9:
-                c += 1
-                d = -1
-                while d < 9:
-                    d += 1 
-                    e = -1
-                    while e < 9:
-                        e += 1
-                        print(a, b, c, d, e)
+    with open('Password_list_5.txt','x') as file:
+       file.close()
+    with open('Password_list_5.txt', 'w') as file:
+       for i in range(100000):
+          password = f"{i:05}"
+          file.write(password + '\n')
+    print("SAVE TO 'Password_list_5.txt'")
 
 def p6():
-    a = -1
-    while a < 9:
-        a += 1
-        b = -1
-        while b < 9:
-            b += 1
-            c = -1
-            while c < 9:
-                c += 1
-                d = -1
-                while d < 9:
-                    d += 1 
-                    e = -1
-                    while e < 9:
-                        e += 1
-                        f = -1
-                        while f < 9:
-                            f += 1
-                            print(a, b, c, d, e, f)
-
+    with open('Password_list_6.txt','x') as file:
+       file.close()
+    with open('Password_list_6.txt', 'w') as file:
+       for i in range(1000000):
+          password = f"{i:06}"
+          file.write(password + '\n')
+    print("SAVE TO 'Password_list_6.txt'")
 def p7():
-    a = -1
-    while a < 9:
-        a += 1
-        b = -1
-        while b < 9:
-            b += 1
-            c = -1
-            while c < 9:
-                c += 1
-                d = -1
-                while d < 9:
-                    d += 1 
-                    e = -1
-                    while e < 9:
-                        e += 1
-                        f = -1
-                        while f < 9:
-                            f += 1
-                            g = -1
-                            while g < 9:
-                                g += 1
-                                print(a, b, c, d, e, f, g)
+    with open('Password_list_7.txt','x') as file:
+       file.close()
+    with open('Password_list_7.txt', 'w') as file:
+       for i in range(10000000):
+          password = f"{i:07}"
+          file.write(password + '\n')
+    print("SAVE TO 'Password_list_7.txt'")
 
 def p8():
-    a = -1
-    while a < 9:
-        a += 1
-        b = -1
-        while b < 9:
-            b += 1
-            c = -1
-            while c < 9:
-                c += 1
-                d = -1
-                while d < 9:
-                    d += 1 
-                    e = -1
-                    while e < 9:
-                        e += 1
-                        f = -1
-                        while f < 9:
-                            f += 1
-                            g = -1
-                            while g < 9:
-                                g += 1
-                                h = -1
-                                while h < 9:
-                                    h += 1
-                                    print(a, b, c, d, e, f, g, h)
-
+    with open('Password_list_8.txt','x') as file:
+       file.close()
+    with open('Password_list_8.txt', 'w') as file:
+       for i in range(100000000):
+          password = f"{i:08}"
+          file.write(password + '\n')
+    print("SAVE TO 'Password_list_8.txt'")
 def p9():
-    a = -1
-    while a < 9:
-        a += 1
-        b = -1
-        while b < 9:
-            b += 1
-            c = -1
-            while c < 9:
-                c += 1
-                d = -1
-                while d < 9:
-                    d += 1 
-                    e = -1
-                    while e < 9:
-                        e += 1
-                        f = -1
-                        while f < 9:
-                            f += 1
-                            g = -1
-                            while g < 9:
-                                g += 1
-                                h = -1
-                                while h < 9:
-                                    h += 1
-                                    i = -1
-                                    while i < 9:
-                                        i += 1
-                                        print(a, b, c, d, e, f, g, h, i)
+    with open('Password_list_9.txt','x') as file:
+       file.close()
+    with open('Password_list_9.txt', 'w') as file:
+       for i in range(1000000000):
+          password = f"{i:09}"
+          file.write(password + '\n')
+    print("SAVE TO 'Password_list_9.txt'")
 
 def end():
     print("\n")
